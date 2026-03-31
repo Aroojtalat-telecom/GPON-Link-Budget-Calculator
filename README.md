@@ -16,18 +16,3 @@ This script calculates the total optical loss and system margin by taking the fo
 Simply run the script in any Python environment:
 ```bash
 python gpon_calculator.py
-##  Example Output
-
-```text
---- GPON Optical Link Budget Calculator ---
-Enter OLT Transmit Power (dBm) [e.g., 2.5]: 2.5
-Enter Fiber Distance (km) [e.g., 5]: 10
-Enter number of Connectors [e.g., 4]: 4
-Enter number of Splices [e.g., 2]: 2
-Enter Splitter Ratio (2, 4, 8, 16, 32, 64, 128) [e.g., 64]: 64
-
---- Link Budget Results ---
-Total Loss: 25.70 dB
-Received Power at ONT: -23.20 dBm
-System Margin: 3.80 dB
-Status: PASS (Link is highly reliable)
